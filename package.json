@@ -1,0 +1,14 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "A template for TypeScript projects.",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "start": "npm run build && node dist/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.6.1",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.6.2"
+  }
+}
